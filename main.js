@@ -18,3 +18,11 @@ function Result() {
     result.value = eval(result.value)
     
 }
+
+function Back() {
+
+    var str = document.getElementById('number').value
+    str = str.substr(0,str.length-1)
+    document.getElementById('number').value = str
+
+}
